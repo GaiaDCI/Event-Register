@@ -1,0 +1,27 @@
+html
+    head
+        title= title
+    body
+        h1#bigtitle
+
+        a.link(href='contact.html', target='_blank') Contact
+        h1=text
+        h2=city
+        h2=plz
+
+        p.class-parag
+        p.class-parag. 
+
+        .display-box
+
+        ul
+            li This is item #1
+            li This is item #2
+        
+    //-    input(type="password" name="inpPwd" data-js=`${ 5 > 2 ? "OK" : "NOT OK" }`)
+
+    - const myClasses = ["class1", "class2"]
+    div.my-div(class=myClasses)
+
+     - const Stile = {"background-color": "yellow"}
+    div(Style=Stile)
